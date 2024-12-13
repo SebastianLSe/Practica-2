@@ -46,7 +46,7 @@ public class InformeVentas {
                 System.out.println("Conteste con 'si' o 'no'.");
                 continuar = scanner.next();
             }if (continuar.equalsIgnoreCase("no")) {
-                break; // Salir del bucle si el usuario no quiere continuar
+                break; 
             }
         }
 
